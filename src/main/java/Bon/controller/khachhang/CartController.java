@@ -38,7 +38,7 @@ public class CartController extends BaseController {
 	@Autowired
 	private SaleOrderService saleOrderService;
 	
-	@RequestMapping(value = { "/cart/checkout" }, method = RequestMethod.POST)
+	@RequestMapping(value = { "/cart/5" }, method = RequestMethod.POST)
 	public String cartFinish(final ModelMap model, final HttpServletRequest request, final HttpServletResponse response)
 			throws Exception {
 		HttpSession session = request.getSession();

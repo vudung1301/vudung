@@ -81,9 +81,6 @@ a{
     transition: 0.4s;
 
 }
-#main{
-	background-color:#1b203d;
-}
 .menu ul li a{
     display: block;
     font-size: 15px;
